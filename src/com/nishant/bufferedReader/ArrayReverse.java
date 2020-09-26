@@ -15,7 +15,6 @@ public class ArrayReverse {
 		for (int i_arr = 0; i_arr < arr.length; i_arr++) {
 			input[i_arr] = Integer.parseInt(arr[i_arr]);
 		}
-		
 		System.out.println( "Int array "+ Arrays.toString(input) );
 		String str = reverse(i,input);
 		System.out.println(str);
